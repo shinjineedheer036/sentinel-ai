@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 const Sidebar = () => {
   const navItems = [
-    { name: 'Dashboard', path: '/', icon: <Shield size={20} /> },
+    { name: 'Dashboard', path: '/dashboard', icon: <Shield size={20} /> },
     { name: 'Requests', path: '/requests', icon: <RefreshCw size={20} /> },
     { name: 'Threats', path: '/threats', icon: <Activity size={20} /> },
     { name: 'Analytics', path: '/analytics', icon: <BarChart2 size={20} /> },

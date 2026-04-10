@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 
-const GlassCard = ({ children, className = '', glowColor = 'var(--neon-green)', tiltOptions = {} }) => {
+const GlassCard = ({ children, className = '', glowColor = 'var(--neon-green)', tiltOptions = {}, style = {} }) => {
   const [rotateX, setRotateX] = useState(0);
   const [rotateY, setRotateY] = useState(0);
 
@@ -35,6 +35,7 @@ const GlassCard = ({ children, className = '', glowColor = 'var(--neon-green)', 
         position: 'relative',
         display: 'flex',
         flexDirection: 'column',
+        ...style
       }}
       animate={{ rotateX, rotateY }}
       transition={{ type: 'spring', stiffness: 300, damping: 30 }}

@@ -50,19 +50,7 @@ const Admin = () => {
         </div>
       </GlassCard>
 
-      <GlassCard style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-        <motion.div 
-          animate={{ rotate: 360 }} 
-          transition={{ repeat: Infinity, duration: 20, ease: 'linear' }}
-          style={{ width: '250px', height: '250px', border: '2px dashed var(--neon-cyan)', borderRadius: '50%', display: 'flex', justifyContent: 'center', alignItems: 'center', position: 'relative' }}
-        >
-          <motion.div style={{ width: '200px', height: '200px', border: '1px solid rgba(0, 255, 255, 0.3)', borderRadius: '50%', position: 'absolute' }} />
-          <div style={{ textAlign: 'center' }}>
-            <div className="text-cyan" style={{ fontSize: '2rem', fontWeight: 'bold' }}>ACTIVE</div>
-            <div className="text-muted">ADMINISTRATOR</div>
-          </div>
-        </motion.div>
-      </GlassCard>
+
     </div>
   );
 };

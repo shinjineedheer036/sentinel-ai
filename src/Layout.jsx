@@ -12,7 +12,7 @@ const Layout = () => {
       <div style={{ flex: 1, display: 'flex', flexDirection: 'column', padding: '20px', paddingLeft: 0, overflow: 'hidden' }}>
         <header className="glass-panel" style={{ height: '70px', marginBottom: '20px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '0 30px' }}>
           <div>
-            <h2 className="text-cyan" style={{ margin: 0, fontWeight: 500, letterSpacing: '2px' }}>AI CORE V2.4 DIRECTIVE</h2>
+            <h2 className="text-cyan" style={{ margin: 0, fontWeight: 500, letterSpacing: '2px' }}>SentinelAI</h2>
           </div>
           <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
             <div style={{ position: 'relative' }}>
